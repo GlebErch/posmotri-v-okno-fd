@@ -304,7 +304,6 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   overflow: hidden;
-  /*text-decoration: none;*/
 }
 
 .content__video-card-description {
@@ -330,6 +329,8 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
+
+
 /*Кнопка "Показать еще"*/
 .more-button {
   font-weight: 700;
