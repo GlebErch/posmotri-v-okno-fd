@@ -61,7 +61,7 @@ ol {
 
 /*Заголовки*/
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald",sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -76,6 +76,7 @@ ol {
   color: #fff;
   min-height: 34px;
   outline: none;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .button:hover {
@@ -87,7 +88,7 @@ ol {
   background-color: #545050;
 }
 
-.button:focus-visible {
+.button:focus-visible {     /*Обводка убрана выше*/
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -164,7 +165,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 200%;
-  letter-spacing: 0%;
 }
 
 .search-form__label {
@@ -174,7 +174,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:hover {
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
 }
 
@@ -188,7 +188,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   background-color: transparent;
   border-width: 1px;
   border-style: solid;
@@ -200,7 +199,7 @@ ol {
 }
 
 .search-form__textfield::placeholder {
-  color: (255 255 255 / 0.7);
+  color: rgb (255 255 255 / 0.7);
 }
 
 .search-form__textfield:focus {
@@ -236,11 +235,9 @@ ol {
 
 /*кнопка в форме*/
 .search-form__submit-button {
-  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   width: 194px;
   align-self: flex-end;
@@ -275,6 +272,7 @@ ol {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position:center;
   flex-shrink: 0;
 }
 
@@ -300,11 +298,10 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald";
+  font-family: "Oswald",sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -316,7 +313,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  letter-spacing: 0%;
   text-overflow: ellipsis;
   -webkit-line-clamp: 4;
   line-clamp: 4;
@@ -328,7 +324,7 @@ ol {
   padding: 0px 3px;
 }
 
-.content__list-item:hover .content__video-card-title {
+.content__card-link:hover  {
   text-decoration: underline;
 }
 
@@ -341,11 +337,9 @@ ol {
 }
 /*Кнопка "Показать еще"*/
 .more-button {
-  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   width: fill;
   gap: 10px;
