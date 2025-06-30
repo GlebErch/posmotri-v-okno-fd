@@ -61,11 +61,10 @@ ol {
 
 /*Заголовки*/
 .title {
-  font-family: "Oswald",sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -77,6 +76,10 @@ ol {
   min-height: 34px;
   outline: none;
   font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
 }
 
 .button:hover {
@@ -88,7 +91,8 @@ ol {
   background-color: #545050;
 }
 
-.button:focus-visible {     /*Обводка убрана выше*/
+.button:focus-visible {
+  /*Обводка убрана выше*/
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -151,7 +155,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
- /* height: 54px;*/
+  /* height: 54px;*/
 }
 
 .search-form__fieldset {
@@ -198,7 +202,7 @@ ol {
 }
 
 .search-form__textfield::placeholder {
-  color: rgb (255 255 255 / 0.7);
+  color: rgb(255 255 255 / 0.7);
 }
 
 .search-form__textfield:focus {
@@ -234,10 +238,6 @@ ol {
 
 /*кнопка в форме*/
 .search-form__submit-button {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 100%;
-  text-align: center;
   width: 194px;
   align-self: flex-end;
 }
@@ -271,7 +271,7 @@ ol {
   width: 194px;
   height: 103px;
   object-fit: cover;
-  object-position:center;
+  object-position: center;
   flex-shrink: 0;
 }
 
@@ -297,7 +297,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald",sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -322,7 +322,7 @@ ol {
   padding: 0px 3px;
 }
 
-.content__card-link:hover  {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
@@ -330,13 +330,8 @@ ol {
   outline: 1px solid #fff;
 }
 
-
 /*Кнопка "Показать еще"*/
 .more-button {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 100%;
-  text-align: center;
   width: fill;
   gap: 10px;
 }
